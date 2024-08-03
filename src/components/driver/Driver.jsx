@@ -4,7 +4,7 @@ import { io } from 'socket.io-client';
 import axios from "axios";
 
 const userId = 6;
-const ENDPOINT = 'http://localhost:3000';
+const ENDPOINT = 'https://tracker-api-so31.onrender.com';
 const TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidHlwZSI6MSwiaWF0IjoxNzE5NTEyMjM1fQ.Veoqx9EQ3z2jmxWLIDbNhXm_0bZXV9Ggrf483tYf2W8';
 const API_TRUCK_AND_SHIPMENT = `${ENDPOINT}/api/trucks/userid/${userId}`;
 
