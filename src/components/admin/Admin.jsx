@@ -4,7 +4,7 @@ import { GoogleMap, LoadScript, Marker, DirectionsService, DirectionsRenderer } 
 import io from 'socket.io-client';
 import axios from 'axios';
 
-const ENDPOINT = 'http://localhost:3000';
+const ENDPOINT = 'https://tracker-api-so31.onrender.com';
 const API_CENTERS = `${ENDPOINT}/api/centers`;
 const TOKEN = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwidHlwZSI6MSwiaWF0IjoxNzE5NTEyMjM1fQ.Veoqx9EQ3z2jmxWLIDbNhXm_0bZXV9Ggrf483tYf2W8';
 const containerStyle = {
